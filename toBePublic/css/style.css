@@ -1,4 +1,32 @@
 body {
-    background-color: aquamarine;
+    background-color: #abf2f8;
     font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 200px;
+    color: #fff;
+}
+
+.myPic {
+    height: 100%;
+    width: auto;
+}
+
+.userDetails {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2px 15px;
+    flex-grow: 2;
 }
