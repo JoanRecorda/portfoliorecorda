@@ -8,6 +8,9 @@ https://www.youtube.com/watch?v=kzY7XPX1DMs&ab_channel=TelmoSampaio
 https://www.youtube.com/watch?v=TBW8ZcyVXS4&ab_channel=TelmoSampaio
 https://www.youtube.com/watch?v=TzfjMyprVCo&ab_channel=TelmoSampaio
 
+I've selected following palette colors:
+https://colorhunt.co/palette/dddddd125d983c8dadf5a962
+
 I've developed the site with WebStorm IDE from JetBrains.
 
 (1) npm install -g nodemon

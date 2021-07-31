@@ -1,5 +1,5 @@
 body {
-    background-color: #abf2f8;
+    background-color: #DDDDDD;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -13,7 +13,7 @@ nav {
     justify-content: flex-start;
     flex-wrap: wrap;
     height: 200px;
-    color: #fff;
+    color: #DDDDDD;
 }
 
 .myPic {
@@ -22,11 +22,50 @@ nav {
 }
 
 .userDetails {
-    background-color: antiquewhite;
+    background-color: #125D98;
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 2px 15px;
     flex-grow: 2;
+}
+
+.userDetails h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.userDetails span {
+    margin: 0;
+    display: inline-block;
+}
+
+.home {
+    background-color: #3C8DAD;
+}
+
+.projects {
+    background-color: #3C8DAD;
+}
+
+.contact {
+    background-color: #3C8DAD;
+}
+
+.home,
+.projects,
+.contact {
+    color: #DDDDDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.home ion-icon,
+.projects ion-icon,
+.contact ion-icon
+{
+    font-size: 100px;
 }
