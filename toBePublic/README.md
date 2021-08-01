@@ -8,6 +8,9 @@ https://www.youtube.com/watch?v=kzY7XPX1DMs&ab_channel=TelmoSampaio
 https://www.youtube.com/watch?v=TBW8ZcyVXS4&ab_channel=TelmoSampaio
 https://www.youtube.com/watch?v=TzfjMyprVCo&ab_channel=TelmoSampaio
 
+Nodejs Curso Desde Cero, para principiantes:
+https://www.youtube.com/watch?v=BhvLIzVL8_o&ab_channel=Fazt
+
 I've selected following palette colors:
 https://colorhunt.co/palette/dddddd125d983c8dadf5a962
 

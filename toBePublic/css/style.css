@@ -12,7 +12,7 @@ nav {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    height: 200px;
+    height: 160px;
     color: #DDDDDD;
 }
 
@@ -21,7 +21,7 @@ nav {
     width: auto;
 }
 
-.userDetails {
+.myDetails {
     background-color: #125D98;
     display: flex;
     justify-content: center;
@@ -31,12 +31,12 @@ nav {
     flex-grow: 2;
 }
 
-.userDetails h1 {
+.myDetails h1 {
     margin: 0;
-    font-size: 28px;
+    font-size: 20px;
 }
 
-.userDetails span {
+.myDetails span {
     margin: 0;
     display: inline-block;
 }
@@ -68,4 +68,17 @@ nav {
 .contact ion-icon
 {
     font-size: 100px;
+}
+
+.mainContainer {
+    max-width: 1000px;
+    margin: 10 auto;
+}
+
+.employment {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 160px;
+    color: #DDDDDD;
 }

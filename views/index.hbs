@@ -2,32 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Recordà Portfolio</title>
+    <title>Joan Recordà Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
 <!--<h1>This is the {{title}} page</h1>
     <h2>My name is {{name}}</h2> -->
-    <div class="container">
-        <nav>
-            <img class="myPic" src="images/imatgeperfil.jpg" alt="Profile picture" width="60">
-            <div class="userDetails">
-                <h1>Joan</h1>
-                <h1>Recordà Pellicer</h1>
-                <span>Full Stack Developer</span>
+<div class="container">
+    <nav>
+        <img class="myPic" src="images/imatgeperfil.jpg" alt="Profile picture" width="50">
+        <div class="myDetails">
+            <h1>Joan</h1>
+            <h1>Recordà Pellicer</h1>
+            <span>Full Stack Developer</span>
+        </div>
+        <div class="home">
+            <ion-icon name="school"></ion-icon>
+        </div>
+        <div class="projects">
+            <ion-icon name="folder"></ion-icon>
+        </div>
+        <div class="contact">
+            <ion-icon name="mail"></ion-icon>
+        </div>
+    </nav>
+</div>
+<main>
+    <div class="mainContainer">
+        <section class="employment">
+            <div class="employmentHeader">
+                <div class="employmentIcon">
+                    <ion-icon name="briefcase"></ion-icon>
+                </div>
+                <div class="employmentIcon">
+                    <h2>EMPLOYMENT</h2>
+                </div>
+                <div class="employmentAccordion">
+                    <input id="toggle" type="checkbox" checked>
+                    <label for="toggle">
+                        <ion-icon name="add-circle"></ion-icon>
+                    </label>
+                </div>
             </div>
-            <div class="home">
-                <ion-icon name="school"></ion-icon>
+
+        </section>
+        <section class="education">
+            <div class="educationHeader">
+
             </div>
-            <div class="projects">
-                <ion-icon name="folder"></ion-icon>
+        </section>
+        <section class="skills">
+            <div class="skillsHeader">
+
             </div>
-            <div class="contact">
-                <ion-icon name="mail"></ion-icon>
-            </div>
-        </nav>
+        </section>
     </div>
+
+</main>
+
+
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
