@@ -1,10 +1,13 @@
 body {
-    background-color: #DDDDDD;
+    background-color: #125D98;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -22,7 +25,7 @@ nav {
 }
 
 .myDetails {
-    background-color: #125D98;
+    background-color: #3C8DAD;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -67,38 +70,57 @@ nav {
 .projects ion-icon,
 .contact ion-icon
 {
-    font-size: 100px;
+    font-size: 80px;
+}
+
+main {
+    background-color: #DDDDDD;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 1vw 0;
 }
 
 .mainContainer {
+    background-color: #3C8DAD;
     max-width: 1000px;
-    margin: 20vw 0 5vw 0;
+    margin: 1vw 0 1vw 0;
 }
 
 .employment {
 
 }
 
-.employmentHeadline {
+.employmentHeadline,
+.educationHeadline,
+.skillsHeadline
+{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     height: 40px;
     color: #F5A962;
 }
-.employmentHeading {
-    background-color: #125D98;
+.employmentHeading,
+.educationHeading,
+.skillsHeading
+{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 0 5vw 0 0;
-    color: #F5A962;
+    color: #125D98;
 }
 
-.employmentIcon ion-icon {
+.employmentIcon ion-icon,
+.educationIcon ion-icon,
+.skillsIcon ion-icon
+{
     padding: 0 0 0 1vw;
     font-size: 40px;
 }
