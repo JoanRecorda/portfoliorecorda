@@ -33,7 +33,7 @@ nav {
 
 .myDetails h1 {
     margin: 0;
-    font-size: 20px;
+    font-size: 26px;
 }
 
 .myDetails span {
@@ -72,13 +72,37 @@ nav {
 
 .mainContainer {
     max-width: 1000px;
-    margin: 10 auto;
+    margin: 20vw 0 5vw 0;
 }
 
 .employment {
+
+}
+
+.employmentHeadline {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 40px;
+    color: #F5A962;
+}
+.employmentHeading {
+    background-color: #125D98;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
     flex-wrap: wrap;
-    height: 160px;
-    color: #DDDDDD;
+    padding: 0 5vw 0 0;
+    color: #F5A962;
+}
+
+.employmentIcon ion-icon {
+    padding: 0 0 0 1vw;
+    font-size: 40px;
+}
+
+.employmentTitle {
+    padding: 0 2vw 0 2vw;
 }
