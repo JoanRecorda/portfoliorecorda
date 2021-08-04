@@ -15,9 +15,11 @@ app.get('/', function (req, res) {
         name: "Recordà"
     })
 })
+
 app.get('/about', function (req, res) {
     res.send('Hello from the about page')
 })
+
 app.listen(3000, () => {
     console.log("The server is running on port 3000");
 })
