@@ -27,7 +27,7 @@ nav {
 }
 
 .myDetails {
-    background-color: #3C8DAD;
+    background: linear-gradient(to right, #125D98, #3C8DAD);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -77,15 +77,13 @@ nav {
 
 main {
     background-color: #DDDDDD;
-    max-width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 0 1vw 0;
+    box-shadow: 1px 1px 16px 1px #F5A96265;
 }
 
 .mainContainer {
-    background-color: #3C8DAD;
     width: 1000px;
     max-width: 90%;
     margin: 0 5% 0 5%;
@@ -104,7 +102,7 @@ main {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 40px;
+    height: 80px;
     color: #F5A962;
 }
 .employmentHeading,
