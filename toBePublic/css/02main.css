@@ -327,7 +327,7 @@ main {
 .boxVuejs .percent .number h4,
 .boxLaravel .percent .number h4,
 .boxJest .percent .number h4 {
-    font-size: 48px;
+    font-size: 34px;
 }
 
 .boxHtml .percent .number span,

@@ -2,7 +2,7 @@
 @import url("02main.css");
 
 body {
-    background: linear-gradient(90deg, #125D98 65%, #F5A962);
+    background: linear-gradient(210deg, #125D98 20%, #3C8DAD);
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
