@@ -126,7 +126,8 @@ main {
 
 .boxHtml,
 .boxCss,
-.boxJs {
+.boxJs,
+.boxPhp {
     position: relative;
     width: 100%;
     height: 100%;
@@ -135,13 +136,12 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #DDDDDD;
-    box-shadow: 1px 1px 16px 1px #F5A96265;
 }
 
 .boxHtml .percent,
 .boxCss .percent,
-.boxJs .percent {
+.boxJs .percent,
+.boxPhp .percent {
     position: relative;
     width: 150px;
     height: 150px;
@@ -149,7 +149,8 @@ main {
 
 .boxHtml .percent svg,
 .boxCss .percent svg,
-.boxJs .percent svg {
+.boxJs .percent svg,
+.boxPhp .percent svg{
     position: relative;
     width: 150px;
     height: 150px;
@@ -157,7 +158,8 @@ main {
 
 .boxHtml .percent svg circle,
 .boxCss .percent svg circle,
-.boxJs .percent svg circle {
+.boxJs .percent svg circle,
+.boxPhp .percent svg circle {
     width: 150px;
     height: 150px;
     fill: none;
@@ -175,7 +177,7 @@ main {
 }
 
 .boxHtml .percent svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 55) / 100);
+    stroke-dashoffset: calc(440 - (440 * 58) / 100);
     stroke: #125D98;
 }
 
@@ -185,7 +187,7 @@ main {
 }
 
 .boxCss .percent svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 35) / 100);
+    stroke-dashoffset: calc(440 - (440 * 32) / 100);
     stroke: #125D98;
 }
 
@@ -195,13 +197,24 @@ main {
 }
 
 .boxJs .percent svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 35) / 100);
+    stroke-dashoffset: calc(440 - (440 * 18) / 100);
+    stroke: #125D98;
+}
+
+.boxPhp .percent svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #F5A962;
+}
+
+.boxPhp .percent svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 10) / 100);
     stroke: #125D98;
 }
 
 .boxHtml .percent .number,
 .boxCss .percent .number,
-.boxJs .percent .number {
+.boxJs .percent .number,
+.boxPhp .percent .number {
     position: absolute;
     top: 0;
     left: 0;
@@ -215,19 +228,22 @@ main {
 
 .boxHtml .percent .number h4,
 .boxCss .percent .number h4,
-.boxJs .percent .number h4 {
+.boxJs .percent .number h4,
+.boxPhp .percent .number h4 {
     font-size: 48px;
 }
 
 .boxHtml .percent .number span,
 .boxCss .percent .number span,
-.boxJs .percent .number span{
+.boxJs .percent .number span,
+.boxPhp .percent .number span {
     font-size: 24px;
 }
 
 .boxHtml img,
 .boxCss img,
-.boxJs img{
+.boxJs img,
+.boxPhp img {
     margin: 25px 0 0 0;
 }
 
