@@ -132,7 +132,8 @@ main {
 .boxPython,
 .boxBootstrap,
 .boxSass,
-.boxVuejs {
+.boxVuejs,
+.boxLaravel {
     position: relative;
     width: 100%;
     height: 100%;
@@ -149,7 +150,9 @@ main {
 .boxPhp .percent,
 .boxPython .percent,
 .boxBootstrap .percent,
-.boxSass .percent {
+.boxSass .percent,
+.boxVuejs .percent,
+.boxLaravel .percent {
     position: relative;
     width: 150px;
     height: 150px;
@@ -161,7 +164,9 @@ main {
 .boxPhp .percent svg,
 .boxPython .percent svg,
 .boxBootstrap .percent svg,
-.boxSass .percent svg {
+.boxSass .percent svg,
+.boxVuejs .percent svg,
+.boxLaravel .percent svg {
     position: relative;
     width: 150px;
     height: 150px;
@@ -173,7 +178,9 @@ main {
 .boxPhp .percent svg circle,
 .boxPython .percent svg circle,
 .boxBootstrap .percent svg circle,
-.boxSass .percent svg circle {
+.boxSass .percent svg circle,
+.boxVuejs .percent svg circle,
+.boxLaravel .percent svg circle {
     width: 150px;
     height: 150px;
     fill: none;
@@ -185,6 +192,7 @@ main {
     stroke-linecap: round;
 }
 
+/* <<<< <<< << HTML >> >>> >>>> */
 .boxHtml .percent svg circle:nth-child(1) {
     stroke-dashoffset: 0;
     stroke: #F5A962;
@@ -194,6 +202,7 @@ main {
     stroke: #125D98;
 }
 
+/* <<<< <<< << CSS >> >>> >>>> */
 .boxCss .percent svg circle:nth-child(1) {
     stroke-dashoffset: 0;
     stroke: #F5A962;
@@ -203,6 +212,7 @@ main {
     stroke: #125D98;
 }
 
+/* <<<< <<< << JS >> >>> >>>> */
 .boxJs .percent svg circle:nth-child(1) {
     stroke-dashoffset: 0;
     stroke: #F5A962;
@@ -212,6 +222,7 @@ main {
     stroke: #125D98;
 }
 
+/* <<<< <<< << PHP >> >>> >>>> */
 .boxPhp .percent svg circle:nth-child(1) {
     stroke-dashoffset: 0;
     stroke: #F5A962;
@@ -221,6 +232,7 @@ main {
     stroke: #125D98;
 }
 
+/* <<<< <<< << PYTHON >> >>> >>>> */
 .boxPython .percent svg circle:nth-child(1) {
     stroke-dashoffset: 0;
     stroke: #F5A962;
@@ -230,6 +242,7 @@ main {
     stroke: #125D98;
 }
 
+/* <<<< <<< << BOOTSTRAP >> >>> >>>> */
 .boxBootstrap .percent svg circle:nth-child(1) {
     stroke-dashoffset: 0;
     stroke: #F5A962;
@@ -239,6 +252,7 @@ main {
     stroke: #125D98;
 }
 
+/* <<<< <<< << SASS >> >>> >>>> */
 .boxSass .percent svg circle:nth-child(1) {
     stroke-dashoffset: 0;
     stroke: #F5A962;
@@ -248,13 +262,35 @@ main {
     stroke: #125D98;
 }
 
+/* <<<< <<< << VUEJS >> >>> >>>> */
+.boxVuejs .percent svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #F5A962;
+}
+.boxVuejs .percent svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 24) / 100);
+    stroke: #125D98;
+}
+
+/* <<<< <<< << LARAVEL >> >>> >>>> */
+.boxLaravel .percent svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #F5A962;
+}
+.boxLaravel .percent svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 7) / 100);
+    stroke: #125D98;
+}
+
 .boxHtml .percent .number,
 .boxCss .percent .number,
 .boxJs .percent .number,
 .boxPhp .percent .number,
 .boxPython .percent .number,
 .boxBootstrap .percent .number,
-.boxSass .percent .number {
+.boxSass .percent .number,
+.boxVuejs .percent .number,
+.boxLaravel .percent .number {
     position: absolute;
     top: 0;
     left: 0;
@@ -272,7 +308,9 @@ main {
 .boxPhp .percent .number h4,
 .boxPython .percent .number h4,
 .boxBootstrap .percent .number h4,
-.boxSass .percent .number h4 {
+.boxSass .percent .number h4,
+.boxVuejs .percent .number h4,
+.boxLaravel .percent .number h4 {
     font-size: 48px;
 }
 
@@ -282,7 +320,9 @@ main {
 .boxPhp .percent .number span,
 .boxPython .percent .number span,
 .boxBootstrap .percent .number span,
-.boxSass .percent .number span {
+.boxSass .percent .number span,
+.boxVuejs .percent .number span,
+.boxLaravel .percent .number span {
     font-size: 24px;
 }
 
@@ -292,7 +332,9 @@ main {
 .boxPhp img,
 .boxPython img,
 .boxBootstrap img,
-.boxSass img {
+.boxSass img,
+.boxVuejs img,
+.boxLaravel img {
     margin: 25px 0 0 0;
 }
 
