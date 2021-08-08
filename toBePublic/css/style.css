@@ -1,4 +1,6 @@
 body {
+    background-image: url("toBePublic/images/Swp50.png");
+    background-repeat: repeat;
     background-color: #125D98;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -128,4 +130,22 @@ main {
 
 .employmentTitle {
     padding: 0 2vw 0 2vw;
+}
+
+.employmentAccordion ion-icon {
+    font-size: 40px;
+}
+
+.employmentContent {
+    color: #125D98;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.underConstruction {
+    font-size: 60px;
+    color: #F5A962;
 }
