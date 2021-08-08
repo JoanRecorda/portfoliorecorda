@@ -133,7 +133,8 @@ main {
 .boxBootstrap,
 .boxSass,
 .boxVuejs,
-.boxLaravel {
+.boxLaravel,
+.boxJest {
     position: relative;
     width: 100%;
     height: 100%;
@@ -152,7 +153,8 @@ main {
 .boxBootstrap .percent,
 .boxSass .percent,
 .boxVuejs .percent,
-.boxLaravel .percent {
+.boxLaravel .percent,
+.boxJest .percent {
     position: relative;
     width: 150px;
     height: 150px;
@@ -166,7 +168,8 @@ main {
 .boxBootstrap .percent svg,
 .boxSass .percent svg,
 .boxVuejs .percent svg,
-.boxLaravel .percent svg {
+.boxLaravel .percent svg,
+.boxJest .percent svg {
     position: relative;
     width: 150px;
     height: 150px;
@@ -180,7 +183,8 @@ main {
 .boxBootstrap .percent svg circle,
 .boxSass .percent svg circle,
 .boxVuejs .percent svg circle,
-.boxLaravel .percent svg circle {
+.boxLaravel .percent svg circle,
+.boxJest .percent svg circle {
     width: 150px;
     height: 150px;
     fill: none;
@@ -282,6 +286,16 @@ main {
     stroke: #125D98;
 }
 
+/* <<<< <<< << JEST >> >>> >>>> */
+.boxJest .percent svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #F5A962;
+}
+.boxJest .percent svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 5) / 100);
+    stroke: #125D98;
+}
+
 .boxHtml .percent .number,
 .boxCss .percent .number,
 .boxJs .percent .number,
@@ -290,7 +304,8 @@ main {
 .boxBootstrap .percent .number,
 .boxSass .percent .number,
 .boxVuejs .percent .number,
-.boxLaravel .percent .number {
+.boxLaravel .percent .number,
+.boxJest .percent .number {
     position: absolute;
     top: 0;
     left: 0;
@@ -310,7 +325,8 @@ main {
 .boxBootstrap .percent .number h4,
 .boxSass .percent .number h4,
 .boxVuejs .percent .number h4,
-.boxLaravel .percent .number h4 {
+.boxLaravel .percent .number h4,
+.boxJest .percent .number h4 {
     font-size: 48px;
 }
 
@@ -322,7 +338,8 @@ main {
 .boxBootstrap .percent .number span,
 .boxSass .percent .number span,
 .boxVuejs .percent .number span,
-.boxLaravel .percent .number span {
+.boxLaravel .percent .number span,
+.boxJest .percent .number span {
     font-size: 24px;
 }
 
@@ -334,7 +351,8 @@ main {
 .boxBootstrap img,
 .boxSass img,
 .boxVuejs img,
-.boxLaravel img {
+.boxLaravel img,
+.boxJest img {
     margin: 25px 0 0 0;
 }
 
