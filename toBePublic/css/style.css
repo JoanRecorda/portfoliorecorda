@@ -132,7 +132,9 @@ main {
     padding: 0 2vw 0 2vw;
 }
 
-.employmentAccordion ion-icon {
+.employmentAccordion ion-icon,
+.educationAccordion,
+.skillsAccordion {
     font-size: 40px;
 }
 
