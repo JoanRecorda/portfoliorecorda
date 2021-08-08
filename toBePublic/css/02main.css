@@ -117,7 +117,8 @@ main {
     flex-direction: column;
 }
 
-.skillsBars {
+.skillsBarsLanguages,
+.skillsBarsLibrariesFrameworks {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -128,7 +129,8 @@ main {
 .boxCss,
 .boxJs,
 .boxPhp,
-.boxPython {
+.boxPython,
+.boxBootstrap {
     position: relative;
     width: 100%;
     height: 100%;
@@ -143,7 +145,8 @@ main {
 .boxCss .percent,
 .boxJs .percent,
 .boxPhp .percent,
-.boxPython .percent{
+.boxPython .percent,
+.boxBootstrap .percent {
     position: relative;
     width: 150px;
     height: 150px;
@@ -153,7 +156,8 @@ main {
 .boxCss .percent svg,
 .boxJs .percent svg,
 .boxPhp .percent svg,
-.boxPython .percent svg {
+.boxPython .percent svg,
+.boxBootstrap .percent svg{
     position: relative;
     width: 150px;
     height: 150px;
@@ -163,7 +167,8 @@ main {
 .boxCss .percent svg circle,
 .boxJs .percent svg circle,
 .boxPhp .percent svg circle,
-.boxPython .percent svg circle {
+.boxPython .percent svg circle,
+.boxBootstrap .percent svg circle {
     width: 150px;
     height: 150px;
     fill: none;
@@ -220,11 +225,21 @@ main {
     stroke: #125D98;
 }
 
+.boxBootstrap .percent svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #F5A962;
+}
+.boxBootstrap .percent svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 46) / 100);
+    stroke: #125D98;
+}
+
 .boxHtml .percent .number,
 .boxCss .percent .number,
 .boxJs .percent .number,
 .boxPhp .percent .number,
-.boxPython .percent .number {
+.boxPython .percent .number,
+.boxBootstrap .percent .number {
     position: absolute;
     top: 0;
     left: 0;
@@ -240,7 +255,8 @@ main {
 .boxCss .percent .number h4,
 .boxJs .percent .number h4,
 .boxPhp .percent .number h4,
-.boxPython .percent .number h4 {
+.boxPython .percent .number h4,
+.boxBootstrap .percent .number h4 {
     font-size: 48px;
 }
 
@@ -248,7 +264,8 @@ main {
 .boxCss .percent .number span,
 .boxJs .percent .number span,
 .boxPhp .percent .number span,
-.boxPython .percent .number span {
+.boxPython .percent .number span,
+.boxBootstrap .percent .number span {
     font-size: 24px;
 }
 
@@ -256,7 +273,8 @@ main {
 .boxCss img,
 .boxJs img,
 .boxPhp img,
-.boxPython img {
+.boxPython img,
+.boxBootstrap img {
     margin: 25px 0 0 0;
 }
 
