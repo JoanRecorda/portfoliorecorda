@@ -125,7 +125,8 @@ main {
 }
 
 .boxHtml,
-.boxCss {
+.boxCss,
+.boxJs {
     position: relative;
     width: 100%;
     height: 100%;
@@ -139,21 +140,24 @@ main {
 }
 
 .boxHtml .percent,
-.boxCss .percent {
+.boxCss .percent,
+.boxJs .percent {
     position: relative;
     width: 150px;
     height: 150px;
 }
 
 .boxHtml .percent svg,
-.boxCss .percent svg {
+.boxCss .percent svg,
+.boxJs .percent svg {
     position: relative;
     width: 150px;
     height: 150px;
 }
 
 .boxHtml .percent svg circle,
-.boxCss .percent svg circle {
+.boxCss .percent svg circle,
+.boxJs .percent svg circle {
     width: 150px;
     height: 150px;
     fill: none;
@@ -185,8 +189,19 @@ main {
     stroke: #125D98;
 }
 
+.boxJs .percent svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #F5A962;
+}
+
+.boxJs .percent svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 35) / 100);
+    stroke: #125D98;
+}
+
 .boxHtml .percent .number,
-.boxCss .percent .number {
+.boxCss .percent .number,
+.boxJs .percent .number {
     position: absolute;
     top: 0;
     left: 0;
@@ -199,18 +214,21 @@ main {
 }
 
 .boxHtml .percent .number h4,
-.boxCss .percent .number h4 {
+.boxCss .percent .number h4,
+.boxJs .percent .number h4 {
     font-size: 48px;
 }
 
 .boxHtml .percent .number span,
-.boxCss .percent .number span {
+.boxCss .percent .number span,
+.boxJs .percent .number span{
     font-size: 24px;
 }
 
 .boxHtml img,
-.boxCss img {
-    margin: 15px 0 0 0;
+.boxCss img,
+.boxJs img{
+    margin: 25px 0 0 0;
 }
 
 .skillsGitWaka {
