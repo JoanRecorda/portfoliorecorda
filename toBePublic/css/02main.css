@@ -115,6 +115,10 @@ main {
     flex-direction: column;
 }
 
+.skillsContent h3 {
+    margin: 50px 0 20px 0;
+}
+
 .skillsBarsLanguages,
 .skillsBarsLibrariesFrameworks {
     display: flex;
@@ -359,12 +363,16 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: drop-shadow(5px 5px 7px #F5A96280);
+    filter: drop-shadow(0 0 7px #F5A96280);
 }
 
 .skillsGitWaka {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: start;
+    align-items: flex-start;
     flex-direction: row;
+}
+
+.skillsGitWaka img {
+    margin: 0 20px;
 }
