@@ -10,7 +10,7 @@
 Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it.
 ### Screenshot
 
-I followed next video tutorials
+I have followed next video tutorials:
 
 How to build a Portfolio Project with Nodejs
 https://www.youtube.com/watch?v=kzY7XPX1DMs&ab_channel=TelmoSampaio

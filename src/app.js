@@ -16,7 +16,7 @@ app.get('/', function (req, res) {
     })
 })
 
-app.get('/template/agile', function (req, res) {
+app.get('/agile', function (req, res) {
     res.render('agile', {
         title: "Agile Software Development",
         name: "Recordà"
